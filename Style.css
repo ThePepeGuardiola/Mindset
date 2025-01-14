@@ -1,0 +1,3284 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    width: 100%;
+}
+
+main {
+    margin: 0px;
+}
+
+footer {
+    overflow: hidden;
+    padding-top: 50px;
+    position: relative;
+    top: 0vh;
+    background-color: #000000;
+    height: 66.5vh;
+    width: 100%;
+    margin: 1950vh 0px 0px 0px;
+    box-shadow: 0px -10px 80px black, 30px -30px 30px black, -30px -30px 30px black;
+}
+
+nav {
+    position: fixed;
+    z-index: 20;
+    height: 80px;
+    width: 100%;
+    margin: 0px 0px;
+    background-image: linear-gradient(black, transparent 100%);
+    display: inline-block;
+    overflow-y: hidden;
+}
+
+nav ul {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.barra {
+    display: inline-flex;
+    position: absolute;
+    left: 25px;
+}
+
+.barra .A {
+    padding: 30px 10px;
+}
+
+.barra li .B {
+    padding: 10px 15px 10px 15px;
+    margin: 25px 0px;
+    color: white;
+    vertical-align: middle;
+    font-size: 13px;
+    border-radius: 25px;
+    font-weight: bolder;
+    transition: ease 400ms;
+}
+
+.barra li .B:hover {
+    color: #000000;
+    background-color: #ff0000;
+    border-radius: 25px;
+    box-shadow: 0px 0px 3px #ff0000, 0px 0px 5px #ff0000, 0px 0px 8px #ff0000, 0px 0px 10px #ff0000, 0px 0px 12px #ff0000;
+    transition: ease 400ms;
+}
+
+.barra li .B:active {
+    background-color: #e100ff;
+    border-radius: 25px;
+    box-shadow: 0px 0px 3px #e100ff, 0px 0px 5px #e100ff, 0px 0px 8px #e100ff, 0px 0px 10px #e100ff, 0px 0px 12px #e100ff;
+    transition: ease 200ms;
+}
+
+.barra .Logo {
+    margin: 9px 0px 9px 5px;
+    padding: 0px 0px;
+}
+
+.barra .logo {
+    cursor: pointer;
+}
+
+.barra img {
+    vertical-align: middle;
+}
+
+.barra1 {
+    display: inline-flex;
+    position: absolute;
+    right: 25px;
+}
+
+.barra1 li {
+    padding: 30px 15px 30px 15px;
+}
+
+.barra1 li a {
+    vertical-align: middle;
+    color: black;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.barra1 img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.inicio p {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.carrito p {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.menu p {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.sesion p {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.sesion {
+    background-color: #ff0000;
+    box-shadow: 0px 0px 5px #ff0000, 0px 0px 8px #ff0000, 0px 0px 10px #ff0000;
+    border-radius: 30px;
+    padding: 10px 20px 13px 20px;
+    transition: ease 400ms;
+}
+
+.sesion:hover {
+    background-color: #e100ff;
+    box-shadow: 0px 0px 3px #e100ff, 0px 0px 5px #e100ff, 0px 0px 8px #e100ff, 0px 0px 10px #e100ff, 0px 0px 12px #e100ff, 0px 0px 12px #e100ff;
+    transition: ease 400ms;
+}
+
+.sesion:active {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 3px #ffffff, 0px 0px 5px #ffffff, 0px 0px 8px #ffffff, 0px 0px 10px #ffffff, 0px 0px 12px #ffffff, 0px 0px 12px #ffffff;
+    transition: ease 200ms;
+}
+
+.cover {
+    position: absolute;
+    top: 0%;
+    left: 700px;
+    z-index: 2;
+    height: 100vh;
+    width: 55%;
+    Margin: 0px 0px 0px 0px;
+    background: url(IMG/IA_edited.jpg);
+    background-size: cover;
+    background-position: top;
+    border-bottom: solid 3px #e100ff;
+}
+
+.part1 {
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    height: 100vh;
+    width: 100%;
+    Margin: 0px 0px 0px 0px;
+    border-bottom: solid 3px #e100ff;
+}
+
+.h1 {
+    position: relative;
+    top: 35%;
+    bottom: 50%;
+    margin-left: 6%;
+    font-weight: bolder;
+    font-size: 50px;
+    color: white;
+}
+
+.info {
+    position: relative;
+    background-color: #e100ff;
+    box-shadow: 0px 0px 5px #e100ff, 0px 0px 8px #e100ff, 0px 0px 10px #e100ff;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #000000;
+    padding: 15px 25px 15px 25px;
+    top: 42%;
+    margin-left: 6%;
+    border-radius: 50px;
+    transition: ease 400ms;
+}
+
+.info:hover {
+    background-color: #ff0000;
+    box-shadow: 0px 0px 3px #ff0000, 0px 0px 5px #ff0000, 0px 0px 8px #ff0000, 0px 0px 10px #ff0000, 0px 0px 12px #ff0000, 0px 0px 12px #ff0000;
+    transition: ease 400ms;
+}
+
+.info:active {
+    background-color: #006eff;
+    box-shadow: 0px 0px 3px #006eff, 0px 0px 5px #006eff, 0px 0px 8px #006eff, 0px 0px 10px #006eff, 0px 0px 12px #006eff, 0px 0px 12px #006eff;
+    transition: ease 200ms;
+}
+
+.part3 {
+    position: absolute;
+    left: 10%;
+    top: 120vh;
+    padding: 25px;
+}
+
+.img1 {
+    position: relative;
+    margin: 0px 30px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 15px;
+    border: solid 3px #f8f8f8;
+    transition: linear 300ms;
+}
+
+.img1:hover {
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 20px #000000;
+    transition: ease 400ms;
+}
+
+.img1:active {
+    transform: translate(5px, 5px);
+    box-shadow: 2px 2px 10px #000000;
+    transition: ease 200ms;
+}
+
+.img1 h3 {
+    text-align: center;
+    padding: 20px;
+    color: black;
+    font-size: 30px;
+    background-color: #f8f8f8;
+}
+
+.f {
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.img2 {
+    position: relative;
+    margin: 0px 30px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 15px;
+    border: solid 3px #f8f8f8;
+    transition: linear 300ms;
+}
+
+.img2:hover {
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 20px #000000;
+    transition: ease 400ms;
+}
+
+.img2:active {
+    transform: translate(5px, 5px);
+    box-shadow: 2px 2px 10px #000000;
+    transition: ease 200ms;
+}
+
+.img2 h3 {
+    text-align: center;
+    padding: 20px;
+    color: black;
+    font-size: 30px;
+    background-color: #f8f8f8;
+}
+
+.s {
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.img3 {
+    position: relative;
+    margin: 0px 30px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 15px;
+    border: solid 3px #f8f8f8;
+    transition: linear 300ms;
+}
+
+.img3:hover {
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 20px #000000;
+    transition: ease 400ms;
+}
+
+.img3:active {
+    transform: translate(5px, 5px);
+    box-shadow: 2px 2px 10px #000000;
+    transition: ease 200ms;
+}
+
+.img3 h3 {
+    text-align: center;
+    padding: 20px;
+    color: black;
+    font-size: 30px;
+    background-color: #f8f8f8;
+}
+
+.p {
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.sec1 {
+    z-index: 2;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(img/Nosotros_edited.jpg);
+    top: 200vh;
+    left: 0%;
+    height: 80vh;
+    width: 60%;
+    border-top: solid #ffd900;
+    border-bottom: solid #ffd900;
+}
+
+.sec2 {
+    z-index: 1;
+    position: absolute;
+    top: 200vh;
+    right: 0%;
+    background-color: #000000;
+    height: 80vh;
+    width: 100%;
+    border-top: solid #ffd000;
+    border-bottom: solid #ffd000;
+}
+
+.nosotros {
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    height: 50vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.sec2 h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    right: 2%;
+    position: relative;
+    margin-bottom: 2%;
+    text-align: right;
+    color: #fff;
+}
+
+.sec2 a {
+    position: absolute;
+    color: #000000;
+    right: 2%;
+    padding: 15px 25px;
+    border-radius: 25px;
+    background-color: #ffd000;
+    box-shadow: 0px 0px 5px #ffd000, 0px 0px 8px #ffd000, 0px 0px 10px #ffd000;
+    font-weight: bold;
+    font-size: 18px;
+    transition: ease 400ms;
+}
+
+.sec2 a:hover {
+    background-color: #ff8800;
+    box-shadow: 0px 0px 3px #ff8800, 0px 0px 5px #ff8800, 0px 0px 8px #ff8800, 0px 0px 10px #ff8800, 0px 0px 12px #ff8800, 0px 0px 12px #ff8800;
+    transition: ease 400ms;
+}
+
+.sec2 a:active {
+    background-color: #ff0000;
+    box-shadow: 0px 0px 3px #ff0000, 0px 0px 5px #ff0000, 0px 0px 8px #ff0000, 0px 0px 10px #ff0000, 0px 0px 12px #ff0000, 0px 0px 12px #ff0000;
+    transition: ease 200ms;
+}
+
+.s1 {
+    position: absolute;
+    width: 100%;
+    top: 300vh;
+}
+
+.se1 div {
+    position: relative;
+    left: 18%;
+    display: inline-block;
+    margin: 0px 0px 100px 0px;
+}
+
+.se1 h1 {
+    font-size: 35px;
+    margin: 10px 0px 40px 0px;
+}
+
+.se1 p {
+    font-weight: 500;
+    margin: 10px 0px 10px 0px;
+    line-height: 25px;
+    width: 600px;
+    height: fit-content;
+}
+
+.se1 img {
+    position: relative;
+    left: 20%;
+    display: inline-block;
+    margin: 0px 0px 90px 100px;
+}
+
+.se2 {
+    float: left;
+    margin-left: 11%;
+}
+
+.se3 {
+    float: right;
+}
+
+.s3 h1 {
+    float: left;
+    position: relative;
+    left: 15%;
+    font-size: 35px;
+    margin: 10px 0px 20px 0px;
+}
+
+.se2 div article {
+    width: 600px;
+    margin: 30px 10px;
+    border: solid 2px black;
+    border-radius: 30px;
+    transition: ease 600ms;
+}
+
+.se2 .art1 {
+    float: right;
+}
+
+.se2 .art2 {
+    float: left;
+}
+
+.se2 div article img {
+    margin: 15px 15px;
+    height: 125px;
+    width: 175px;
+    vertical-align: middle;
+}
+
+.se2 div article h4 {
+    font-size: 20px;
+    padding: 20px 0px 0px 20px;
+    margin: 10px 0px 10px 20px;
+}
+
+.se2 div article p {
+    float: left;
+    font-weight: 500;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 5px 0px 40px;
+    text-align: left;
+    width: 375px;
+    color: black;
+}
+
+.se2 div article:hover {
+    box-shadow: 5px 5px 10px black;
+    transform: translate(-5px, -5px);
+    transition: ease 400ms;
+}
+
+.se2 div article:active {
+    box-shadow: 2px 2px 5px black;
+    transform: translate(5px, 5px);
+    transition: ease 300ms
+}
+
+.s1 .s2 h1 {
+    text-align: right;
+    font-size: 35px;
+    margin: 0px 0px 25px 0px;
+    position: relative;
+    right: 18%;
+}
+
+.se3 {
+    float: right;
+    position: relative;
+    right: 15%;
+    height: fit-content;
+    width: fit-content;
+}
+
+.se3 div {
+    overflow: hidden;
+    min-width: auto;
+    height: 200px;
+    display: block;
+    margin: 25px 10px 25px 10px;
+    border: solid 2px black;
+    border-radius: 25px;
+    transition: ease 600ms;
+}
+
+.se3 div:hover{
+    box-shadow: 5px 5px 10px black;
+    transform: translate(-5px, -5px);
+    transition: ease 400ms;
+}
+
+.se3 div:active {
+    box-shadow: 2px 2px 5px black;
+    transform: translate(5px, 5px);
+    transition: ease 300ms
+}
+
+.se3 div h4 {
+    font-size: 20px;
+    padding: 20px 0px 0px 20px;
+    margin: 10px 0px 0px 10px;
+}
+
+.se3 div p {
+    float: left;
+    padding: 10px;
+    font-weight: 500;
+    margin: 0px 0px 0px 20px;
+    width: 300px;
+}
+
+.se3 div img {
+    height: 125px;
+    width: 175px;
+    margin: 0px 20px 0px 10px;
+}
+
+.se4 {
+    position: relative;
+    left: 15%;
+    float: left;
+    height: fit-content;
+    width: fit-content;
+    margin: 0px 0px 5% 0px;
+}
+
+.se4 div {
+    overflow: hidden;
+    min-width: auto;
+    height: 200px;
+    display: block;
+    margin: 25px 10px 25px 10px;
+    border: solid 2px black;
+    border-radius: 25px;
+    transition: ease 600ms;
+}
+
+.se4 div:hover {
+    box-shadow: 5px 5px 10px black;
+    transform: translate(-5px, -5px);
+    transition: ease 400ms;
+}
+
+.se4 div:active {
+    box-shadow: 2px 2px 5px black;
+    transform: translate(5px, 5px);
+    transition: ease 300ms
+}
+
+.se4 div h4 {
+    font-size: 20px;
+    padding: 20px 0px 0px 20px;
+    margin: 10px 0px 0px 10px;
+}
+
+.se4 div p {
+    float: left;
+    padding: 10px;
+    font-weight: 500;
+    margin: 0px 0px 0px 20px;
+    width: 300px;
+}
+
+.se4 div img {
+    height: 125px;
+    width: 175px;
+    margin: 0px 20px 0px 10px;
+}
+
+.cover1 {
+    display: inline-block;
+    position: absolute;
+    top: 550vh;
+    right: 0%;
+    z-index: 2;
+    height: 80vh;
+    width: 55%;
+    background-size: cover;
+    background-position: right;
+    background-image: url(IMG/Tienda_edited.jpg);
+    border-top: solid 3px #ff9900;
+    border-bottom: solid 3px #ff9900;
+}
+
+.part4 {
+    display: inline-block;
+    z-index: 1;
+    background-color: black;    
+    position: absolute;
+    top: 550vh;
+    left: 0%;
+    height: 80vh;
+    width: 100%;
+    border-top: solid 3px #ff9900;
+    border-bottom: solid 3px #ff9900;
+}
+
+.tienda {
+    z-index: 2;
+    position: absolute;
+    height: 500px;
+    left: 0%;
+    top: 0%;
+    padding: 15px;
+    margin-left: 5%;
+    overflow: hidden;
+}
+
+.h2 {
+    position: relative;
+    margin-top: 25%;
+    margin-bottom: 8%;
+    display: block;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.online {
+    position: absolute;
+    display: block;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 15px 25px;
+    padding: 15px 25px;
+    color: #000000;
+    background-color: #ff9900;
+    box-shadow: 0px 0px 5px #ff9900, 0px 0px 8px #ff9900, 0px 0px 10px #ff9900;
+    border-radius: 50px;
+    transition: ease 400ms;
+}
+
+.online:hover {
+    background-color: #ff0000;
+    box-shadow: 0px 0px 3px #ff0000, 0px 0px 5px #ff0000, 0px 0px 8px #ff0000, 0px 0px 10px #ff0000, 0px 0px 12px #ff0000, 0px 0px 15px #ff0000;
+    transition: ease 400ms;
+}
+
+.online:active {
+    background-color: #ffc800;
+    box-shadow: 0px 0px 3px #ffc800, 0px 0px 5px #ffc800, 0px 0px 8px #ffc800, 0px 0px 10px #ffc800, 0px 0px 12px #ffc800, 0px 0px 15px #ffc800;
+    transition: ease 200ms;
+}
+
+.container {
+    position: absolute;
+    top: 650vh;
+    left: 20%;
+    right: 20%;
+    height: 100vh;
+    padding: 2rem;
+}
+
+.slider-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 55rem;
+    border-radius: 2rem;
+    box-shadow: 0 1rem 2rem -3px hsla(0, 0%, 0%, 0.25);
+    margin: 0 auto;
+}
+
+.slider {
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 2rem;
+}
+
+.slider .agregar {
+    position: relative;
+    color: white;
+    font-size: 100px;
+    font-weight: 800;
+    text-align: center;
+    user-select: none;
+    top: 20%;
+}
+
+.slider .agregado {
+    position: relative;
+    color: white;
+    font-size: 100px;
+    font-weight: 800;
+    text-align: center;
+    user-select: none;
+    top: 35%;
+}
+
+.slider div {
+    position: absolute;
+    border-radius: 2rem;
+}
+
+.slider .primer {
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+    z-index: 4;
+    opacity: 0;
+    transition: ease 100ms;
+}
+
+.slider .primer:hover {
+    opacity: 0.6;
+    transition: ease 100ms;
+}
+
+.slider .primer:active {
+    background-color: white;
+    box-shadow: 0px 0px 5px #000000, 0px 0px 10px #000000, 0px 0px 15px #000000, 0px 0px 20px #000000, 0px 0px 25px #000000, 0px 0px 30px #000000;
+    transition: ease 200ms;
+}
+
+.slider .primer:focus {
+    z-index: 1;
+}
+
+.slider .segundo {
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    opacity: 0;
+    transition: ease 100ms;
+}
+
+.slider .segundo:hover {
+    opacity: 0.6;
+    transition: ease 100ms;
+}
+
+.slider img {
+    z-index: 2;
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+
+.slider-nav {
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 4;
+}
+
+.slider-nav a {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opasity ease 250ms;
+}
+
+.slider-nav a:hover {
+    opacity: 1;
+}
+
+.hr1 {
+    position: absolute;
+    top: 740vh;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+}
+
+.linea1 {
+    position: absolute;
+    top: 750vh;
+    left: 15%;
+}
+
+.linea1 div {
+    margin: 10% 0%;
+    border-radius: 20px;
+    width: 350px;
+    height: 225px;
+    overflow: hidden;
+}
+
+.linea1 div article {
+    opacity: 0.9;
+    z-index: 4;
+    position: absolute;
+    background-color: #000;
+    display: inline-block;
+    border-radius: 20px;
+    width: 350px;
+    height: 225px;
+}
+
+.linea1 h3 {
+    z-index: 4;
+    user-select: none;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    font-size: 60px;
+    color: #fff;
+}
+
+.linea1 div article a {
+    z-index: 4;
+    position: relative;
+    left: 33%;
+    right: 67%;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    padding: 15px 25px;
+    border-radius: 50px;
+    background-color: #ff9900;
+    box-shadow: 0px 0px 5px #ff9900, 0px 0px 8px #ff9900, 0px 0px 10px #ff9900;
+    transition: ease 400ms;
+}
+
+.linea1 div article a:hover {
+    opacity: 1;
+    background-color: #ff0000;
+    box-shadow: 0px 0px 3px #ff0000, 0px 0px 5px #ff0000, 0px 0px 8px #ff0000, 0px 0px 10px #ff0000, 0px 0px 12px #ff0000, 0px 0px 15px #ff0000;
+    transition: ease 400ms;
+}
+
+.linea1 div article a:active {
+    background-color: #ffc800;
+    box-shadow: 0px 0px 3px #ffc800, 0px 0px 5px #ffc800, 0px 0px 8px #ffc800, 0px 0px 10px #ffc800, 0px 0px 12px #ffc800, 0px 0px 15px #ffc800;
+    transition: ease 200ms;
+}
+
+.linea1 a img {
+    z-index: 2;
+    opacity: 1;
+    position: relative;
+    border-radius: 20px;
+    width: 350px;
+    height: 225px;
+    transition: ease 400ms;
+}
+
+.linea1 a img:hover {
+    z-index: 2;
+    opacity: 0.1;
+    transition: ease 300ms;
+}
+
+.linea1 a img:active {
+    opacity: 0.5;
+    transition: ease 100ms;
+}
+
+.linea1 .art1 {
+    z-index: 4;
+    opacity: 0;
+    transition: ease 300ms;
+}
+
+.linea1 .art1:hover {
+    opacity: 0.8;
+    transition: ease 300ms;
+}
+
+.linea .art1:active {
+    opacity: 0.5;
+    transition: ease 100ms;
+}
+
+.linea1 .art1:focus {
+    z-index: 1;
+    background-color: #fff;
+    box-shadow: 0px 0px 3px #fff, 0px 0px 5px #fff, 0px 0px 8px #fff, 0px 0px 10px #fff, 0px 0px 13px #fff, 0px 0px 15px #fff;
+    transition: ease 100ms;
+}
+
+.linea1 .ar1 {
+    z-index: 3;
+    opacity: 0;
+    transition: ease 300ms;
+}
+
+.linea1 .ar1:hover {
+    opacity: 0.8;
+    transition: ease 300ms;
+}
+
+.linea2 {
+    position: absolute;
+    top: 750vh;
+    left: 37.5%;
+    overflow: visible;
+}
+
+.linea2 div {
+    margin: 10% 10%;
+    border-radius: 20px;
+    width: 350px;
+    height: 225px;
+    overflow: hidden;
+}
+
+.linea2 div article {
+    opacity: 0.9;
+    z-index: 4;
+    position: absolute;
+    background-color: #000;
+    display: inline-block;
+    border-radius: 20px;
+    width: 350px;
+    height: 225px;
+}
+
+.linea2 h3 {
+    z-index: 4;
+    user-select: none;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    font-size: 60px;
+    color: #fff;
+}
+
+.linea2 div article a {
+    z-index: 4;
+    position: relative;
+    left: 33%;
+    right: 67%;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    padding: 15px 25px;
+    border-radius: 50px;
+    background-color: #ff9900;
+    box-shadow: 0px 0px 5px #ff9900, 0px 0px 8px #ff9900, 0px 0px 10px #ff9900;
+    transition: ease 400ms;
+}
+
+.linea2 div article a:hover {
+    opacity: 1;
+    background-color: #ff0000;
+    box-shadow: 0px 0px 3px #ff0000, 0px 0px 5px #ff0000, 0px 0px 8px #ff0000, 0px 0px 10px #ff0000, 0px 0px 12px #ff0000, 0px 0px 15px #ff0000;
+    transition: ease 400ms;
+}
+
+.linea2 div article a:active {
+    background-color: #ffc800;
+    box-shadow: 0px 0px 3px #ffc800, 0px 0px 5px #ffc800, 0px 0px 8px #ffc800, 0px 0px 10px #ffc800, 0px 0px 12px #ffc800, 0px 0px 15px #ffc800;
+    transition: ease 200ms;
+}
+
+.linea2 img {
+    z-index: 2;
+    opacity: 1;
+    position: relative;
+    border-radius: 20px;
+    width: 350px;
+    height: 225px;
+    transition: ease 400ms;
+}
+
+.linea2 a img:hover {
+    z-index: 2;
+    opacity: 0.1;
+    transition: ease 300ms;
+}
+
+.linea2 a img:active {
+    opacity: 0.5;
+    transition: ease 100ms;
+}
+
+.linea2 .art4 {
+    z-index: 4;
+    opacity: 0;
+    transition: ease 300ms;
+}
+
+.linea2 .art4:hover {
+    opacity: 0.8;
+    transition: ease 300ms;
+}
+
+.linea2 .art4:active {
+    opacity: 0.5;
+    transition: ease 100ms;
+}
+
+.linea2 .art4:focus {
+    z-index: 1;
+    background-color: #fff;
+    box-shadow: 0px 0px 3px #fff, 0px 0px 5px #fff, 0px 0px 8px #fff, 0px 0px 10px #fff, 0px 0px 13px #fff, 0px 0px 15px #fff;
+    transition: ease 100ms;
+}
+
+.linea2 .ar4 {
+    z-index: 3;
+    opacity: 0;
+    transition: ease 300ms;
+}
+
+.linea2 .ar4:hover {
+    opacity: 0.8;
+    transition: ease 300ms;
+}
+
+.linea3 {
+    position: absolute;
+    top: 750vh;
+    right: 13%;
+    overflow-x: visible;
+}
+
+.linea3 div {
+    margin: 10% 0%;
+    border-radius: 20px;
+    width: 350px;
+    height: 225px;
+    overflow: hidden;
+}
+
+.linea3 div article {
+    opacity: 0.9;
+    z-index: 4;
+    position: absolute;
+    background-color: #000000;
+    display: inline-block;
+    border-radius: 20px;
+    width: 350px;
+    height: 225px;
+}
+
+.linea3 h3 {
+    z-index: 4;
+    user-select: none;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    font-size: 60px;
+    color: #fff;
+}
+
+.linea3 div article a {
+    z-index: 4;
+    position: relative;
+    left: 33%;
+    right: 67%;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    padding: 15px 25px;
+    border-radius: 50px;
+    background-color: #ff9900;
+    box-shadow: 0px 0px 5px #ff9900, 0px 0px 8px #ff9900, 0px 0px 10px #ff9900;
+    transition: ease 400ms;
+}
+
+.linea3 div article a {
+    z-index: 4;
+    position: relative;
+    left: 33%;
+    right: 67%;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    padding: 15px 25px;
+    border-radius: 50px;
+    background-color: #ff9900;
+    box-shadow: 0px 0px 5px #ff9900, 0px 0px 8px #ff9900, 0px 0px 10px #ff9900;
+    transition: ease 400ms;
+}
+
+.linea3 div article a:hover {
+    opacity: 1;
+    background-color: #ff0000;
+    box-shadow: 0px 0px 3px #ff0000, 0px 0px 5px #ff0000, 0px 0px 8px #ff0000, 0px 0px 10px #ff0000, 0px 0px 12px #ff0000, 0px 0px 15px #ff0000;
+    transition: ease 400ms;
+}
+
+.linea3 div article a:active {
+    background-color: #ffc800;
+    box-shadow: 0px 0px 3px #ffc800, 0px 0px 5px #ffc800, 0px 0px 8px #ffc800, 0px 0px 10px #ffc800, 0px 0px 12px #ffc800, 0px 0px 15px #ffc800;
+    transition: ease 200ms;
+}
+
+.linea3 a img {
+    z-index: 2;
+    opacity: 1;
+    position: relative;
+    object-fit: cover;
+    border-radius: 20px;
+    width: 350px;
+    height: 225px;
+    transition: ease 400ms;
+}
+
+.linea3 a img:hover {
+    z-index: 2;
+    opacity: 0.1;
+    transition: ease 300ms;
+}
+
+.linea3 a img:active {
+    opacity: 0.5;
+    transition: ease 100ms;
+}
+
+.linea3 .art7 {
+    z-index: 4;
+    opacity: 0;
+    transition: ease 300ms;
+}
+
+.linea3 .art7:hover {
+    opacity: 0.8;
+    transition: ease 300ms;
+}
+
+.linea3 .art7:active {
+    opacity: 0.5;
+    transition: ease 100ms;
+}
+
+.linea3 .art7:focus {
+    z-index: 1;
+    background-color: #fff;
+    box-shadow: 0px 0px 3px #fff, 0px 0px 5px #fff, 0px 0px 8px #fff, 0px 0px 10px #fff, 0px 0px 13px #fff, 0px 0px 15px #fff;
+    transition: ease 100ms;
+}
+
+.linea3 .ar7 {
+    z-index: 3;
+    opacity: 0;
+    transition: ease 300ms;
+}
+
+.linea3 .ar7:hover {
+    opacity: 0.8;
+    transition: ease 300ms;
+}
+
+.sec3 {
+    display: inline-block;
+    z-index: 1;
+    background-color: black;
+    position: absolute;
+    top: 880vh;
+    right: 0%;
+    width: 100%;
+    height: 80vh;
+    border-top: solid 3px #085ce5;
+    border-bottom: solid 3px #085ce5;
+}
+
+.sec4 {
+    display: inline-block;
+    z-index: 2;
+    position: absolute;
+    top: 880vh;
+    left: 0%;
+    height: 80vh;
+    width: 55%;
+    background-image: url(IMG/consol_edited.jpg);
+    background-size: cover;
+    border-top: solid 3px #085ce5;
+    border-bottom: solid 3px #085ce5;
+}
+
+.consola {
+    position: absolute;
+    right: 5%;
+    top: 30%;
+    height: 50vh;
+    width: 110%;
+    overflow: hidden;
+}
+
+.sec3 h1 {
+    right: 2%;
+    font-size: 50px;
+    font-weight: bolder;
+    position: relative;
+    margin-bottom: 2%;
+    text-align: right;
+    color: #fff;
+}
+
+.sec3 a {
+    position: absolute;
+    color: #000000;
+    right: 2%;
+    padding: 15px 25px;
+    border-radius: 25px;
+    background-color: #085ce5 ;
+    box-shadow: 0px 0px 5px #085ce5, 0px 0px 8px #085ce5, 0px 0px 10px #085ce5;
+    font-weight: bold;
+    font-size: 18px;
+    transition: ease 400ms;
+}
+
+.sec3 a:hover {
+    background-color: #e100ff;
+    box-shadow: 0px 0px 3px #e100ff, 0px 0px 5px #e100ff, 0px 0px 8px #e100ff, 0px 0px 10px #e100ff, 0px 0px 12px #e100ff, 0px 0px 12px #e100ff;
+    transition: ease 400ms;
+}
+
+.sec3 a:active {
+    background-color: #5f0ad6;
+    box-shadow: 0px 0px 3px #5f0ad6, 0px 0px 5px #5f0ad6, 0px 0px 8px #5f0ad6, 0px 0px 10px #5f0ad6, 0px 0px 12px #5f0ad6, 0px 0px 12px #5f0ad6;
+    transition: ease 200ms;
+}
+
+.sec5 {
+    position: absolute;
+    top: 970vh;
+    padding: 0% 10%;
+}
+
+.sec5 img {
+    margin: 1%;
+    padding: 5px;
+    overflow-x: hidden;
+}
+
+hr {
+    color: #000000;
+    opacity: 0.3;
+}
+
+.conso div {
+    position: relative;
+    float: left;
+    margin: 8% 0%;
+    overflow: hidden;
+}
+
+.conso h1 {
+    font-size: 30px;
+    text-align: right;
+    margin: 20px 0px;
+}
+
+.conso p {
+    font-size: 16px;
+    line-height: 23px;
+    padding: 1% 0% 1% 20%;
+    text-align: right;
+    font-weight: 500;
+    width: 650px;
+}
+
+.TooltipText1 {   
+    cursor: pointer;
+    border-radius: 100%;
+    position: absolute;
+    overflow: hidden;
+    width: 20px;
+    height: 20px;
+    left: 14%;
+    top: 19%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText1:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    overflow: hidden;
+    transform: translate(-20px, 0px);
+    transition: ease 500ms;
+}
+
+.TooltipText2 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    opacity: 0;
+    border-radius: 3rem;
+    width: 110px;
+    height: 15px;
+    left: 25%;
+    top: 17%;
+    transition: ease 200ms;
+}
+
+.TooltipText2:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(10px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.TooltipText3 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    top: 75%;
+    left: 46%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText3:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    transform: translate(-50px, 0px);
+    opacity: .9;
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.TooltipText4 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    width: 15px;
+    height: 25.5px;
+    left: 36%;
+    top: 78.5%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText4:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    transform: translate(0px, 0px);
+    opacity: .9;
+    transform: translate(-20px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.TooltipText5 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    width: 25px;
+    height: 25.5px;
+    left: 43%;
+    top: 78.5%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText5:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    transform: translate(0px, 0px);
+    opacity: .9;
+    transform: translate(-20px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;   
+}
+
+.TooltipText6 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    width: 35px;
+    height: 25.5px;
+    left: 52%;
+    top: 78.5%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText6:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    transform: translate(0px, 0px);
+    opacity: .9;
+    transform: translate(-20px, 0px);
+    overflow: hidden;
+    transition: ease 500ms; 
+}
+
+.cont div {
+    position: relative;
+    float: left;
+    margin: 8% 0%;
+    overflow: hidden;
+}
+
+.cont h1 {
+    font-size: 30px;
+    text-align: left;
+    margin: 20px 0px;
+}
+
+.cont p {
+    font-size: 16px;
+    line-height: 23px;
+    padding: 0% 20% 0% 0%;
+    text-align: left;
+    font-weight: 500;
+    width: 500px;
+}
+
+.TooltipText7 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    width: 30px;
+    height: 20px;
+    left: 20%;
+    top: 15%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText7:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-20px, 0px);
+    overflow: hidden;
+    transition: ease 500ms; 
+}
+
+.TooltipText8 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    width: 30px;
+    height: 20px;
+    left: 32%;
+    top: 39%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText8:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-20px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.TooltipText9 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    width: 16px;
+    height: 15px;
+    left: 39%;
+    top: 20%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText9:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-20px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.TooltipText10 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    left: 49%;
+    top: 20%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText10:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-15px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.TooltipText11 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    left: 60%;
+    top: 20%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText11:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-10px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.TooltipText12 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 20%;
+    width: 30px;
+    height: 12px;
+    left: 49%;
+    top: 30%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText12:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-15px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.TooltipText13 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    width: 45px;
+    height: 20px;
+    left: 63%;
+    top: 36%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText13:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-15px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.TooltipText14 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    left: 75%;
+    top: 13%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText14:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-10px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.TooltipText15 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    left: 70%;
+    top: 18%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText15:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-10px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.TooltipText16 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    left: 80%;
+    top: 18%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText16:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-10px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.TooltipText17 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    left: 75%;
+    top: 23%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText17:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-10px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.TooltipText18 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 10%;
+    width: 60px;
+    height: 20px;
+    left: 16%;
+    top: 56%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText18:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-10px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;   
+}
+
+.TooltipText19 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 10%;
+    width: 60px;
+    height: 20px;
+    left: 16%;
+    top: 71%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText19:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-10px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.TooltipText20 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    width: 20px;
+    height: 25px;
+    left: 34%;
+    top: 64%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText20:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-25px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.TooltipText21 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 35%;
+    width: 20px;
+    height: 20px;
+    left: 45%;
+    top: 57%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText21:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-40px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.TooltipText22 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    left: 53%;
+    top: 57%;
+    opacity: 0;
+    transition: ease 200ms;   
+}
+
+.TooltipText22:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-50px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.TooltipText23 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    left: 62%;
+    top: 64%;
+    opacity: 0;
+    transition: ease 200ms;  
+}
+
+.TooltipText23:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-25px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.TooltipText24 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 10%;
+    width: 60px;
+    height: 20px;
+    left: 72%;
+    top: 71%;
+    opacity: 0;
+    transition: ease 200ms;  
+}
+
+.TooltipText24:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-10px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.TooltipText25 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 10%;
+    width: 60px;
+    height: 20px;
+    left: 72%;
+    top: 55%;
+    opacity: 0;
+    transition: ease 200ms;  
+}
+
+.TooltipText25:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-10px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.conl div {
+    position: relative;
+    float: left;
+    margin: 8% 0%;
+    overflow: hidden;
+}
+
+.conl h1 {
+    font-size: 30px;
+    text-align: right;
+    margin: 20px 0px;
+}
+
+.conl p {
+    font-size: 16px;
+    line-height: 23px;
+    padding: 1% 0% 1% 20%;
+    text-align: right;
+    font-weight: 500;
+    width: 500px;
+}
+
+.TooltipText26 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    width: 30px;
+    height: 20px;
+    left: 18%;
+    top: 15%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText26:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-15px, 0px);
+    overflow: hidden;
+    transition: ease 500ms; 
+}
+
+.TooltipText27 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    width: 30px;
+    height: 20px;
+    left: 30%;
+    top: 41%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText27:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-15px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.TooltipText28 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    width: 16px;
+    height: 15px;
+    left: 38%;
+    top: 22%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText28:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-20px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.TooltipText29 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    left: 48%;
+    top: 21%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText29:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-15px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.TooltipText30 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    left: 58%;
+    top: 21%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText30:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-10px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.TooltipText31 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 20%;
+    width: 30px;
+    height: 12px;
+    left: 49%;
+    top: 32%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText31:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-15px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.TooltipText32 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    width: 45px;
+    height: 20px;
+    left: 63%;
+    top: 37%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText32:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-15px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.TooltipText33 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    left: 75%;
+    top: 14%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText33:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-10px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.TooltipText34 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    left: 70%;
+    top: 19%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText34:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-10px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.TooltipText35 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    left: 80%;
+    top: 19%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText35:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-10px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.TooltipText36 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    left: 75%;
+    top: 23%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText36:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-10px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.TooltipText37 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    height: 20px;
+    width: 22px;
+    left: 28%;
+    top: 35%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText37:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-40px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.TooltipText38 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    height: 20px;
+    width: 22px;
+    left: 27%;
+    top: 53%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText38:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-40px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.TooltipText39 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    height: 32px;
+    width: 22px;
+    left: 64%;
+    top: 36%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText39:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-40px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.TooltipText40 {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    height: 20px;
+    width: 22px;
+    left: 66%;
+    top: 54%;
+    opacity: 0;
+    transition: ease 200ms;
+}
+
+.TooltipText40:hover {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0px 0px 3px red, 0px 0px 5px red, 0px 0px 7px red, 0px 0px 10px red, 0px 0px 12px red, 0px 0px 15px red;
+    opacity: .9;
+    transform: translate(-45px, 0px);
+    overflow: hidden;
+    transition: ease 500ms;
+}
+
+.conso div div {
+    background-color: transparent;
+    position: absolute;
+    cursor: pointer;
+}
+
+.cont div div {
+    background-color: transparent;
+    position: absolute;
+    cursor: pointer;
+}
+
+.conl div div {
+    background-color: transparent;
+    position: absolute;
+    cursor: pointer;
+}
+
+.target {
+    margin: 5% auto;
+    padding: 10px 10px;
+}
+
+.target img {
+    cursor: pointer;
+    width: 300px;
+    height: 450px;
+    opacity: 0.8;
+    border-radius: 20px;
+    padding: 0%;
+    margin: 4px 4px;
+    transform: scale(0.9);
+    transition: ease 500ms;
+}
+
+.target img:hover {
+    transform: scale(1);
+    opacity: 1;
+    filter: contrast(110%);
+    box-shadow: 0px 0px 3px #000000, 0px 0px 5px #000000, 0px 0px 7px #000000, 0px 0px 10px #000000, 0px 0px 12px #000000, 0px 0px 15px #000000;
+    transition: ease 500ms;
+}
+
+.target img:active {
+    transform: scale(0.9);
+    box-shadow: 0px 0px 3px #000000, 0px 0px 5px #000000, 0px 0px 7px #000000, 0px 0px 10px #000000;
+    transition: ease 300ms;
+}
+
+.target1 {
+    margin: 5% auto;
+    padding: 20px 20px;
+}
+
+.target1 div {
+    display: inline-block;
+    overflow: hidden;
+    cursor: pointer;
+    width: 600px;
+    height: 350px;
+    border-radius: 20px;
+    margin: 5px 5px;
+    padding: 0%;
+}
+
+.target1 img {
+    width: 600px;
+    height: 350px;
+    opacity: 0.8;
+    padding: 0%;
+    border-radius: 20px;
+    transition: ease 500ms;
+}
+
+.target1 img:hover {
+    overflow: hidden;
+    transform: scale(1.1);
+    opacity: 1;
+    filter: contrast(120%);
+    transition: ease 800ms;
+}
+
+.target1 img:active {
+    transform: scale(0.9);
+    transition: ease 300ms;
+}
+
+.part5 {
+    z-index: 1;
+    position: absolute;
+    top: 1410vh;
+    left: 0%;
+    border-top: solid 3px red;
+    border-bottom: solid 3px red;
+    background-color: #000000;
+    height: 80vh;
+    width: 100%;
+}
+
+.cover2 {
+    position: absolute;
+    top: 1410vh;
+    right: 0%;
+    z-index: 2;
+    height: 80vh;
+    width: 60%;
+    border-top: solid 3px red;
+    border-bottom: solid 3px red;
+    Margin: 0px 0px 0px 0px;
+    background: url(IMG/curso.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.cursos {
+    height: 500px;
+    width: auto;
+}
+
+.h3 {
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    left: 6%;
+    display: block;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.ya {
+    position: relative;
+    background-color: #ff0000;
+    box-shadow: 0px 0px 5px #ff0000, 0px 0px 8px #ff0000, 0px 0px 10px #ff0000;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #000000;
+    padding: 15px 25px 15px 25px;
+    left: 6%;
+    border-radius: 50px;
+    transition: ease 400ms;
+}
+
+.ya:hover {
+    background-color: #ff9900;
+    box-shadow: 0px 0px 3px #ff9900, 0px 0px 5px #ff9900, 0px 0px 8px #ff9900, 0px 0px 10px #ff9900, 0px 0px 12px #ff9900, 0px 0px 12px #ff9900;
+    transition: ease 400ms;
+}
+
+.ya:active {
+    background-color: #fff;
+    box-shadow: 0px 0px 3px #fff, 0px 0px 5px #fff, 0px 0px 8px #fff, 0px 0px 10px #fff, 0px 0px 12px #fff, 0px 0px 12px #fff;
+    transition: ease 200ms;
+}
+
+.part5-5 {
+    position: absolute;
+    top: 1515vh;
+    left: 2.5%;
+    display: flex;
+    width: 95%;
+    height: 450px;
+}
+
+.part5-5 img {
+    opacity: 0.8;
+    width: 0%;
+    flex-grow: 1;
+    object-fit: cover;
+    border-top: #000000 solid 2px;
+    border-bottom: #000000 solid 2px;
+    border-left: #000000 solid 2px;
+    border-right: #000000 solid 2px;
+    transition: ease 0.7s;
+}
+
+.part5-5 img:hover {
+    cursor: pointer;
+    width: 400px;
+    opacity: 1;
+    filter: contrast(140%);
+    transition: ease 0.7s;
+}
+
+.cursos1 {
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    display: flex;
+    width: 90%;
+    height: 400px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: #000000;
+}
+
+.ciber {
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.ai {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.cover3 {
+    z-index: 2;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(IMG/inteligenciaA_edited.jpg);
+    top: 1595vh;
+    left: 0%;
+    height: 80vh;
+    width: 50%;
+    border-top: solid #00c3ff;
+    border-bottom: solid #00c3ff;
+}
+
+.part6 {
+    z-index: 1;
+    position: absolute;
+    top: 1595vh;
+    right: 0%;
+    background-color: #000000;
+    height: 80vh;
+    width: 100%;
+    border-top: solid #00c3ff;
+    border-bottom: solid #00c3ff;
+}
+
+.IA {
+    position: absolute;
+    top: 30%;
+    right: 6%;
+    height: 400px;
+    padding: 0px 20px;
+}
+
+.h4 {
+    font-size: 50px;
+    position: relative;
+    margin-bottom: 6%;
+    text-align: right;
+    color: #fff;
+}
+
+.mindy {
+    position: absolute;
+    color: #000000;
+    right: 20px;
+    padding: 15px 25px;
+    border-radius: 25px;
+    background-color: #58d8ff;
+    box-shadow: 0px 0px 5px #58d8ff, 0px 0px 8px #58d8ff, 0px 0px 10px #58d8ff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: ease 400ms;
+}    
+
+.mindy:hover {
+    background-color: #ff1cec;
+    box-shadow: 0px 0px 3px #ff1cec, 0px 0px 5px #ff1cec, 0px 0px 8px #ff1cec, 0px 0px 10px #ff1cec, 0px 0px 12px #ff1cec, 0px 0px 12px #ff1cec;
+    transition: ease 400ms;
+}
+
+.mindy:active {
+    background-color: #ff8800;
+    box-shadow: 0px 0px 3px #ff8800, 0px 0px 5px #ff8800, 0px 0px 8px #ff8800, 0px 0px 10px #ff8800, 0px 0px 12px #ff8800, 0px 0px 12px #ff8800;
+    transition: ease 200ms;
+}
+
+.extra {
+    position: absolute;
+    height: fit-content;
+    width: 100%;
+    top: 1690vh;
+}
+
+.div1 {
+    width: 1000px;
+    float: left;
+    display: block;
+    margin: 25px 0px 25px 150px;
+    border: solid 2px black;
+    border-radius: 30px;
+    transition: 2000ms ease;
+}
+
+.div2 {
+    width: 1000px;
+    float: right;
+    display: block;
+    margin: 25px 150px 25px 0px;
+    border: solid 2px black;
+    border-radius: 30px;
+    transition: 2000ms ease;
+}
+
+.im1 {
+    float: left;
+    width: 200px;
+    height: 125px;
+    border-right: solid black 2px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.p1 {
+    float: left;
+    margin: 30px 0px;
+    padding: 0px 20px 0px 40px;
+    text-align: left;
+    width: 725px;
+    font-weight: 500;
+    color: black;
+}
+
+.im2 {
+    float: right;
+    width: 200px;
+    height: 125px;
+    border-left: solid black 2px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.p2 {
+    float: left;
+    margin: 30px 0px;
+    padding: 0px 20px 0px 40px;
+    text-align: right;
+    width: 770px;
+    font-weight: 500;
+    color: black;
+}
+
+.div1:hover {
+    transform: translate(100px, 0px);
+    transition: 800ms ease;
+}
+
+.div2:hover {
+    transform: translate(-100px, 0px);
+    transition: 800ms ease;
+}
+
+.contenedor-imagen {
+    overflow: hidden;
+}
+  
+#imagen {
+    transition: 500ms ease;
+}
+
+.part7 {
+    position: absolute;
+    top: 1840vh;
+    left: 0%;
+    width: 100%;
+    height: auto;
+    box-shadow: inset 30px 0px 80px black;
+    box-shadow: inset 0px -30px 80px black;
+    box-shadow: inset 0px 30px 80px black;
+}
+
+.img6 {
+    width: 100%; 
+    height: auto;
+    cursor: pointer;
+    position: relative;
+    border-top: #ff0000 solid 3px;
+}
+
+.part8 {
+    position: absolute;
+    left: 0%;
+    width: 400px;
+}
+
+.pie {
+    display: flex;
+    position: relative;
+    left: 10%;
+}
+
+.pie1 {
+    display: flex;
+    position: relative;
+    left: 10%;
+}
+
+.pie ul {
+    margin: 5% 0%;
+    padding: 0% 30px;
+}
+
+.pie1 ul {
+    margin: 5% 0%;
+    padding: 0% 30px;
+}
+
+.pie ul li {
+    padding: 1px 0px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: ease 400ms;
+}
+
+.pie ul li:hover {
+    transform: translate(15px, 0px);
+    transition: ease 400ms;
+}
+
+.pie ul li:active {
+    transform: translate(0px, 0px);
+    transition: ease 200ms;
+}
+
+.pie1 ul li {
+    padding: 1px 0px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: ease 400ms;
+}
+
+.pie1 ul li:hover {
+    transform: translate(15px, 0px);
+    transition: ease 400ms;
+}
+
+.pie1 ul li:active {
+    transform: translate(0px, 0px);
+    transition: ease 200ms;
+}
+
+.pie ul li a {
+    color: #ffffff;
+}
+
+.pie1 ul li a {
+    color: #ffffff;
+}
+
+.pie ul li h2 {
+    color: #ffffff;
+    padding: 8px 0px;
+}
+
+.pie1 ul li h2 {
+    color: #ffffff;
+    padding: 8px 0px;
+}
+
+.part9 {
+    position: absolute;
+    left: 33%;
+    overflow-y: hidden;
+}
+
+.form {
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    height: 375px;
+}
+
+form h2 {
+    color: #ffffff;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+form div {
+    padding: 8px 8px;
+}
+
+input {
+    display: inline-flex;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: solid #ffffff 2px;
+    border-radius: 25px;
+    vertical-align: middle;
+}
+
+label {
+    color: #ffffff;
+    display: inline-flex;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+textarea {
+    display: inline-flex;
+    border: solid #ffffff 2px;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 8px 10px;
+    height: 40px;
+    max-height: 80px;
+    min-height: 40px;
+    width: 100px;
+    min-width: 405px;
+    max-width: 405px;
+}
+
+.boton {
+    position: relative;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+    background-color: #ff0000;
+    box-shadow: 0px 0px 3px #ff0000, 0px 0px 5px #ff0000, 0px 0px 8px #ff0000, 0px 0px 10px #ff0000;
+    transition: ease 400ms;
+}
+
+.boton:hover {
+    background-color: #e100ff;
+    box-shadow: 0px 0px 3px #e100ff, 0px 0px 5px #e100ff, 0px 0px 8px #e100ff, 0px 0px 10px #e100ff, 0px 0px 12px #e100ff;
+    transition: ease 400ms;
+}
+
+.boton:active {
+    background-color: #006eff;
+    box-shadow: 0px 0px 3px #006eff, 0px 0px 5px #006eff, 0px 0px 8px #006eff, 0px 0px 10px #006eff, 0px 0px 12px #006eff;
+    transition: ease 200ms;
+}
+
+.boton1 {
+    position: relative;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    background-color: #ff0000;
+    box-shadow: 0px 0px 3px #ff0000, 0px 0px 5px #ff0000, 0px 0px 8px #ff0000, 0px 0px 10px #ff0000;
+    transition: ease 400ms;
+    left: 55%;
+}
+
+.boton1:hover {
+    background-color: #e100ff;
+    box-shadow: 0px 0px 3px #e100ff, 0px 0px 5px #e100ff, 0px 0px 8px #e100ff, 0px 0px 10px #e100ff, 0px 0px 12px #e100ff;
+    transition: ease 400ms;
+}
+
+.boton1:active {
+    background-color: #006eff;
+    box-shadow: 0px 0px 3px #006eff, 0px 0px 5px #006eff, 0px 0px 8px #006eff, 0px 0px 10px #006eff, 0px 0px 12px #006eff;
+    transition: ease 200ms;
+}
+
+.radio {
+    cursor: pointer;
+}
+
+.range {
+    margin-left: 20px;
+    width: 110px;
+}
+
+.part10 {
+    position: absolute;
+    top: 10vh;
+    right: 5%;
+    display: inline-block;
+    height: 350px;
+    width: 450px;
+    padding: 0px 10px;
+}
+
+.part10 h2 {
+    color: #ffffff;
+    text-align: right;
+}
+
+.face {
+    position: relative;
+    border-radius: 100%;
+    vertical-align: middle;
+    left: 55%;
+}
+
+.inst {
+    position: relative;
+    border-radius: 100%;
+    vertical-align: middle;
+    left: 55%;
+}
+
+.tube {
+    position: relative;
+    border-radius: 100%;
+    vertical-align: middle;
+    left: 55%;
+}
+
+.tito {
+    position: relative;
+    border-radius: 100%;
+    vertical-align: middle;
+    left: 55%;
+}
+
+.disc {
+    position: relative;
+    border-radius: 100%;
+    vertical-align: middle;
+    left: 55%;
+}
+
+.link {
+    position: relative;
+    border-radius: 100%;
+    vertical-align: middle;
+    left: 55%;
+}
+
+.twit {
+    position: relative;
+    border-radius: 100%;
+    vertical-align: middle;
+    left: 55%;
+}
+
+.redd {
+    position: relative;
+    border-radius: 100%;
+    vertical-align: middle;
+    left: 55%;
+}
+
+.part10 a img {
+    position: relative;
+    border-radius: 100%;
+    vertical-align: middle;
+    margin: 10px 5px 10px 5px;
+    transition: ease 250ms;
+}
+
+.part10 a img:hover {
+    transform: translate(0px, -5px);
+    transition: ease 500ms;
+}
+
+.part10 a img:active {
+    transform: scale(0.9);
+    transition: ease 200ms;
+}
+
+.a1 {
+    color: #000000;
+    position: absolute;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #ff0000;
+    box-shadow: 0px 0px 3px #ff0000, 0px 0px 5px #ff0000, 0px 0px 8px #ff0000, 0px 0px 10px #ff0000, 0px 0px 12px #ff0000;
+    right: 2%;
+    margin-top: 5%;
+    transition: ease 400ms;
+}
+
+.a1:hover {
+    background-color: #e100ff;
+    box-shadow: 0px 0px 3px #e100ff, 0px 0px 5px #e100ff, 0px 0px 8px #e100ff, 0px 0px 10px #e100ff, 0px 0px 12px #e100ff, 0px 0px 15px #e100ff;
+    transition: ease 400ms;
+}
+
+.a1:active {
+    background-color: #006eff;
+    box-shadow: 0px 0px 3px #006eff, 0px 0px 5px #006eff, 0px 0px 8px #006eff, 0px 0px 10px #006eff, 0px 0px 12px #006eff, 0px 0px 15px #006eff;
+    transition: ease 200ms;
+}
+
+.part11 {
+    position: absolute;
+    top: 60vh;
+    left: 0%;
+    width: 100%;
+    padding: 10px 0px;
+    background-color: #2c2c2c;
+    border-top: solid 3px #ff0000;
+    border-bottom: solid 2px black;
+}
+
+.copy {
+    position: relative;
+    left: 2%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.copy p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    vertical-align: middle;
+}
+
+.Binf {
+    position: relative;
+    left: 5%;
+    display: inline-block;
+    vertical-align: middle;
+    height: fit-content;
+    overflow: hidden;
+}
+
+.Binf a {
+    padding: 20px 15px 20px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    vertical-align: middle;
+    transition: ease 200ms;
+}
+
+.world {
+    display: inline-block;
+    vertical-align: middle;
+    width: 425px;
+}
+
+.world a {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    left: 25%;
+}
+
+.world img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.world p {
+    display: inline-block;
+    vertical-align: middle;
+}
